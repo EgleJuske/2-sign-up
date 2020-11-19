@@ -38,7 +38,7 @@ main {
 			margin-top: 20px;
 		}
 
-		a.privicy-policy-link {
+		p.privicy-policy-and-terms-of-service {
 			display: inline-block;
 			color: white;
 			position: absolute;
@@ -46,6 +46,11 @@ main {
 			margin-left: 35px;
 			margin-bottom: 20px;
 			font-size: 15px;
+		}
+
+		a.privicy-policy-link, a.terms-of-service-link {
+			display: inline-block;
+			color: white;
 		}
 
 	div.right-side {
